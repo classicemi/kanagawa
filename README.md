@@ -1,6 +1,16 @@
-# Kanagawa for VSCode
+<p align="center">
+  <h2 align="center">🌊 Kanagawa for VSCode 🌊</h2>
+</p>
+
+<p align="center">
+  <img src="kanagawa@2x.png" width="500" >
+</p>
 
 A port of the [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) colorscheme to Visual Studio Code, packaged as a minimal extension.
+
+<p align="center">
+  <h2 align="center"><img alt="Preview" src="https://github.com/user-attachments/assets/3366132c-8042-4bbb-9a49-f55167bebc62" width=1000></h2>
+</p>
 
 ## Variants
 
