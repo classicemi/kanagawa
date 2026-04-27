@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="kanagawa@2x.png" width="500" >
+  <img src="https://github.com/user-attachments/assets/8dd5104c-518c-43bf-86ad-82bbceaf4652" width="500" >
 </p>
 
 A port of the [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) colorscheme to Visual Studio Code, packaged as a minimal extension.
