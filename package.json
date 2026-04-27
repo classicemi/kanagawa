@@ -3,8 +3,17 @@
   "displayName": "Kanagawa",
   "description": "Dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai. Ports the wave, dragon and lotus variants from kanagawa.nvim.",
   "version": "0.1.0",
-  "publisher": "rebelot",
+  "author": {
+    "name": "classicemi",
+    "email": "wushuang1227@gmail.com"
+  },
+  "publisher": "tinysam",
   "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1F1F28",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -22,6 +31,10 @@
     "type": "git",
     "url": "https://github.com/rebelot/kanagawa.nvim.git"
   },
+  "bugs": {
+    "url": "https://github.com/classicemi/kanagawa/issues"
+  },
+  "homepage": "https://github.com/classicemi/kanagawa",
   "contributes": {
     "themes": [
       {
