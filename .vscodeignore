@@ -2,3 +2,5 @@
 .gitignore
 **/*.vsix
 **/.DS_Store
+covers/**
+kanagawa@2x.png
