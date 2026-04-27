@@ -1,0 +1,59 @@
+{
+  "name": "kanagawa",
+  "displayName": "Kanagawa",
+  "description": "Dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai. Ports the wave, dragon and lotus variants from kanagawa.nvim.",
+  "version": "0.1.0",
+  "publisher": "rebelot",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "kanagawa",
+    "theme",
+    "dark",
+    "light",
+    "colorscheme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rebelot/kanagawa.nvim.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kanagawa Wave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-wave-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Wave (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-wave-no-italics-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-dragon-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Dragon (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-dragon-no-italics-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Lotus",
+        "uiTheme": "vs",
+        "path": "./themes/kanagawa-lotus-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Lotus (No Italics)",
+        "uiTheme": "vs",
+        "path": "./themes/kanagawa-lotus-no-italics-color-theme.json"
+      }
+    ]
+  }
+}
