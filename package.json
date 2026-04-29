@@ -2,7 +2,7 @@
   "name": "kanagawa-pro",
   "displayName": "Kanagawa Pro",
   "description": "Colorscheme inspired by the colors of the famous painting by Katsushika Hokusai. Ports the wave, dragon and lotus variants from kanagawa.nvim.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "node build.mjs"
   },
