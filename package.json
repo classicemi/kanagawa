@@ -4,7 +4,9 @@
   "description": "Colorscheme inspired by the colors of the famous painting by Katsushika Hokusai. Ports the wave, dragon and lotus variants from kanagawa.nvim.",
   "version": "0.1.1",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node scripts/build.mjs",
+    "build:pi": "node scripts/build-pi.mjs",
+    "dev:pi": "node scripts/dev-pi.mjs"
   },
   "author": {
     "name": "classicemi",

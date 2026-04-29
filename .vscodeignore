@@ -3,4 +3,12 @@
 **/*.vsix
 **/.DS_Store
 covers/**
+icon.png
 kanagawa@2x.png
+extras/**
+lib/**
+scripts/**
+AGENTS.md
+CHANGELOG.md
+LICENSE
+README.md

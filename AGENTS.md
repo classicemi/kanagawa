@@ -3,11 +3,17 @@
 ## Build & generation
 
 ```
-npm run build          # or: node build.mjs
-node build.mjs --dry-run   # preview counts without writing files
+npm run build              # or: node scripts/build.mjs
+node scripts/build.mjs --dry-run   # preview counts without writing files
+
+# Pi agent themes
+npm run build:pi           # or: node scripts/build-pi.mjs
+npm run dev:pi             # build + symlink to ~/.pi/agent/themes/
+node scripts/build-pi.mjs --dry-run
 ```
 
 Theme JSONs in `themes/` are **generated output**. Never edit them directly.
+Pi theme JSONs in `extras/pi/` are also generated — edit the mapping in `lib/pi-theme.mjs` instead.
 
 To package a `.vsix`:
 
@@ -22,8 +28,14 @@ lib/
   palette.mjs        # raw hex palette (ported from lua/kanagawa/colors.lua)
   themes.mjs         # wave / dragon / lotus variant composition
   vscode-theme.mjs   # semantic slots → VSCode theme JSON (workbench + tokens)
-build.mjs            # orchestrator: runs all 3 variants × 2 (italics / no-italics)
-themes/              # generated output (6 JSON files)
+  pi-theme.mjs       # semantic slots → pi agent theme JSON (51 color tokens)
+scripts/
+  build.mjs          # orchestrator: runs all 3 variants × 2 (italics / no-italics)
+  build-pi.mjs       # orchestrator: runs all 3 variants → pi agent JSONs
+  dev-pi.mjs         # build-pi.mjs + symlink to ~/.pi/agent/themes/
+themes/              # generated VSCode output (6 JSON files)
+extras/
+  pi/                # generated pi agent output (3 JSON files)
 ```
 
 ## Where to make changes
@@ -33,6 +45,7 @@ themes/              # generated output (6 JSON files)
 | Change a color value | `lib/palette.mjs` |
 | Reassign which color fills a semantic slot (bg, fg, etc.) | `lib/themes.mjs` |
 | Add or tweak token/syntax scopes or workbench colors | `lib/vscode-theme.mjs` |
+| Adjust pi agent color mapping | `lib/pi-theme.mjs` |
 
 After any change, run `npm run build` to regenerate the theme JSONs.
 

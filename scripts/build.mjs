@@ -2,7 +2,7 @@
 // build.mjs — Generate VSCode theme JSON files from the kanagawa palette & themes.
 //
 // Usage:
-//   node build.mjs              -> writes all 6 theme JSONs to ./themes/
+//   node build.mjs              -> writes all 6 theme JSONs to ../themes/
 //   node build.mjs --dry-run    -> prints JSON summaries instead of writing files
 //
 // Architecture:
@@ -17,12 +17,12 @@ import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import palette from "./lib/palette.mjs";
-import { wave, dragon, lotus } from "./lib/themes.mjs";
-import { buildTheme } from "./lib/vscode-theme.mjs";
+import palette from "../lib/palette.mjs";
+import { wave, dragon, lotus } from "../lib/themes.mjs";
+import { buildTheme } from "../lib/vscode-theme.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const themesDir = path.join(__dirname, "themes");
+const themesDir = path.join(__dirname, "..", "themes");
 
 const VARIANTS = [
   {
