@@ -15,7 +15,7 @@
     "editor.lineHighlightBackground": "#363646",
     "editor.lineHighlightBorder": "#36364600",
     "editor.selectionBackground": "#223249",
-    "editor.selectionHighlightBackground": "#2D4F6766",
+    "editor.selectionHighlightBackground": "#22324966",
     "editor.inactiveSelectionBackground": "#22324988",
     "editor.findMatchBackground": "#2D4F6799",
     "editor.findMatchHighlightBackground": "#2D4F6766",
@@ -135,7 +135,7 @@
     "input.border": "#54546D",
     "input.placeholderForeground": "#727169",
     "inputOption.activeBackground": "#2D4F67",
-    "inputOption.activeForeground": "#DCD7BA",
+    "inputOption.activeForeground": "#C8C093",
     "inputValidation.errorBackground": "#43242B",
     "inputValidation.errorBorder": "#E82424",
     "inputValidation.warningBackground": "#49443C",
@@ -435,7 +435,7 @@
         "keyword.control.throw"
       ],
       "settings": {
-        "foreground": "#FF5D62"
+        "foreground": "#E46876"
       }
     },
     {
@@ -448,7 +448,7 @@
         "keyword.control.default"
       ],
       "settings": {
-        "foreground": "#FF5D62"
+        "foreground": "#E46876"
       }
     },
     {
